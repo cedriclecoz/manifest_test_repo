@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<manifest>
+    <remote fetch="ssh://git@github.com/cedriclecoz/" name="cedriclecoz" review="https://github.com/cedriclecoz" />
+    <remote fetch="ssh://git@github.com/cedrictest/" name="cedrictest" review="https://github.com/cedrictest" />
+    <remote fetch="ssh://git@github.com/" name="github" />
+    <default remote="github" revision="main" sync-j="1"/>
+    <project remote="cedriclecoz" revision="main" name="test_repo" path="test_repo_cedriclecoz"/>
+    <project remote="cedrictest" revision="main" name="test_repo" path="test_repo_cedrictest"/>
+</manifest>
